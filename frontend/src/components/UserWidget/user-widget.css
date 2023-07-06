@@ -46,9 +46,18 @@
     border-top: 1px solid #d2c8ae15;
 }
 
-.login, .register {
+.login, .register, .logout {
     color: #D2C8AE;
     transition: all .4s ease-in-out;
+}
+
+.logout {
+    color: #e42129;
+}
+
+.logout:hover {
+    background-color: #292a2d;
+    color: #e42129;
 }
 
 .login:hover, .register:hover {

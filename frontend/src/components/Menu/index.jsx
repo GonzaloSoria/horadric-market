@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Button, Offcanvas } from 'react-bootstrap'
-import menuIcon from '../../assets/menu-icon.png'
+import menuIcon from '../../assets/menu-icon3.png'
 import './menu.css'
 
 export const Menu = () => {
