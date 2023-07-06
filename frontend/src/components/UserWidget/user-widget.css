@@ -1,0 +1,58 @@
+.btn-user-menu {
+    background-color: transparent !important;
+    border: none;
+    color: #D2C8AE;
+}
+
+.btn-user-menu:hover {
+    background-color: transparent;
+    color: #D2C8AE;
+}
+
+.btn-user-menu:active {
+    background-color: transparent;
+    color: #D2C8AE;
+}
+
+.btn-user-menu:focus {
+    background-color: transparent;
+    color: #D2C8AE !important;
+}
+
+.btn-user-menu:focus-visible {
+    color: #D2C8AE;
+    background-color: transparent;
+    border: 0;
+}
+
+.btn-show {
+    color: #D2C8AE !important;
+    background-color: transparent;
+    border: 0;
+}
+
+.btn-user-menu:first-child:active {
+    background-color: transparent;
+    color: #D2C8AE !important;
+}
+
+.dropdown-menu {
+    background-color: #292a2d;
+    border: none;
+    color: #D2C8AE !important;
+}
+
+.dropdown-divider {
+    border-top: 1px solid #d2c8ae15;
+}
+
+.login, .register {
+    color: #D2C8AE;
+    transition: all .4s ease-in-out;
+}
+
+.login:hover, .register:hover {
+    background-color: #292a2d;
+    color: #D2C8AE;
+    padding-left: 25px;
+}

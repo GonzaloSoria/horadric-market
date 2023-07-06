@@ -1,0 +1,35 @@
+.btn-menu {
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.btn-menu:hover {
+    background-color: transparent;
+}
+
+.btn-menu:focus-visible {
+    color: inherit;
+    background-color: transparent;
+    border: 0;
+}
+
+.btn-menu:first-child:active {
+    background-color: transparent;
+}
+
+.menu-icon {
+    width: 50px;
+    position: relative;
+}
+
+.menu-icon::after {
+    content: 'menu';
+    position: absolute;
+}
+
+.offcanvas-bg {
+    background-color: #292a2d;
+}
