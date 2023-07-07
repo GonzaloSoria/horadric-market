@@ -17,7 +17,7 @@ export const Menu = () => {
 
       <Offcanvas show={show} onHide={handleClose} className='offcanvas-bg'>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+          <Offcanvas.Title>Menú</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
           Some text as placeholder. In real life you can have the elements you

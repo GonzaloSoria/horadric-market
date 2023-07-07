@@ -1,6 +1,7 @@
 .btn-menu {
     background-color: transparent;
-    border: none;
+    border-radius: 50%;
+    border: 1px solid #D2C8AE;
     width: 50px;
     height: 50px;
     padding: 0;
@@ -8,28 +9,28 @@
 
 .btn-menu:hover {
     background-color: transparent;
+    border: 1px solid #D2C8AE;
 }
 
 .btn-menu:focus-visible {
     color: inherit;
     background-color: transparent;
-    border: 0;
+    border: 1px solid #D2C8AE;
 }
 
 .btn-menu:first-child:active {
     background-color: transparent;
+    border: 1px solid #D2C8AE;
 }
 
 .menu-icon {
-    width: 50px;
-    position: relative;
-}
-
-.menu-icon::after {
-    content: 'menu';
-    position: absolute;
+    width: 15px;
+    /* transform: rotate(180deg); */
 }
 
 .offcanvas-bg {
-    background-color: #292a2d;
+    background-color: #25262a98;
+    backdrop-filter: blur(4px);
+    color: #D2C8AE;
+    width: 200px !important;
 }

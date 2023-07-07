@@ -20,6 +20,10 @@
   
 body {
   background-color: #25262A;
+  background-image: linear-gradient(to top, rgba(37,38,42,1) 31%, rgba(166,18,24,0.3449754901960784) 100%), url('https://pbs.twimg.com/media/Fjz1eSyWQAAQYwk.jpg:large');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   
 }
 

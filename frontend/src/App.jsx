@@ -1,7 +1,7 @@
 import { Header } from "./components/Header"
-import './App.css'
 import { HeroHome } from "./components/HeroHome"
 import { Clases } from "./components/Clases"
+import './App.css'
 
 function App() {
 

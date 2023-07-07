@@ -1,5 +1,6 @@
 .header {
-    background-color: #25262A;
+    background-color: #25262a98;
+    backdrop-filter: blur(4px);
     color: #D2C8AE;
     border-bottom: 1px solid #6465693c;
 }
