@@ -3,7 +3,7 @@ import userIcon from '../../assets/user-icon.png'
 import './user-widget.css'
 
 export const UserWidget = () => {
-  const user = true
+  const user = false
   let userName = 'EscudoDeRoble'
 
   return (
